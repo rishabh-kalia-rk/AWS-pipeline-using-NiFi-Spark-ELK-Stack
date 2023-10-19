@@ -186,10 +186,10 @@ This is no SQL databse so we do API calls to execute queries.
 In management click on stack management\
 We need to create the Index pattern. The index against which we want to execute queries.
 * Once the index pattern is created or we can say to get the indexes on which we want to apply query.
-* Now go to discover where we will run the query.
+* Now go to discover where we will run the query.\
  &emsp; ![image](./images/discover.png)
 
-* Now we can run the query using KQL kibana query language.
+* Now we can run the query using KQL kibana query language.\
 &emsp; ![image](./images/query.png)\
   **Example**
   >borough:"Brooklyn" and on_street_name:"LEE AVENUE"
