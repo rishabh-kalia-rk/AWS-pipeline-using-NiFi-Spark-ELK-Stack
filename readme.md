@@ -1,5 +1,5 @@
 # **Build a Data Pipeline in AWS using NiFi, Spark, and ELK Stack**
-# **overview**
+# **Overview**
 &emsp; Building Data Pipeline including using various AWS services and Apache products. We will fetch data from an API, will
 transform it and store it. Using apache tools we will perform data analysis. will use some visualization tool also to perform Data visualization on data
 
@@ -55,10 +55,10 @@ viewing Elasticsearch data.
 
 ## **Diagram**
 ### &emsp; **AWS Work Flow Diagram**
-&emsp; ![](./images\workflow.png)
+&emsp; ![image](./images/workflow.png)
 
 ### &emsp; **Nifi Work Flow Diagram**
-&emsp; ![](./images\nifi.png)
+&emsp; ![image](./images/nifi.png)
 
 
 
@@ -69,8 +69,8 @@ viewing Elasticsearch data.
   
 * create a IAM role
   * In this role EC2 service is given permission to access the S3 bucket.
-* create key pair to login to services from command line.\
-  \
+* create key pair to login to services from command line.
+  
 <br>
 
 
@@ -187,10 +187,10 @@ In management click on stack management\
 We need to create the Index pattern. The index against which we want to execute queries.
 * Once the index pattern is created or we can say to get the indexes on which we want to apply query.
 * Now go to discover where we will run the query.
- &emsp; ![](./images\discover.png)
+ &emsp; ![image](./images/discover.png)
 
 * Now we can run the query using KQL kibana query language.
-&emsp; ![](./images\query.png)\
+&emsp; ![image](./images/query.png)\
   **Example**
   >borough:"Brooklyn" and on_street_name:"LEE AVENUE"
 
